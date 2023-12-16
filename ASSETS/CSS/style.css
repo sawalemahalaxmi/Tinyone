@@ -1,0 +1,238 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+.container {
+  width: 1180px;
+  margin: 0 auto;
+}
+.row,
+.row::after,
+.row::before {
+  clear: both;
+  display: table;
+  width: 100%;
+}
+
+.header {
+  background-color: #fcdb00;
+  padding: 60px 0 100px;
+}
+.mb-70 {
+  margin-bottom: 70px;
+}
+.mt-70 {
+  margin-top: 70px;
+}
+.mb-75 {
+  margin-bottom: 75px;
+}
+.mb-135 {
+  margin-bottom: 135px;
+}
+.col-1 {
+  float: left;
+  padding: 0 15px;
+  width: calc(100% * 1 / 12);
+}
+
+.col-3 {
+  float: left;
+  padding: 0 15px;
+  width: calc(100% * 3 / 12);
+}
+.col-5 {
+  float: left;
+  width: calc(100% * 5 / 12);
+  padding: 0 15px;
+}
+.col-9 {
+  float: left;
+  padding: 0 15px;
+  width: calc(100% * 93333 / 12);
+}
+.offset-4 {
+  margin-left: calc(100% * 4 / 12);
+}
+.offset-2 {
+  margin-left: calc(100% * 2 / 12);
+}
+
+.logo {
+  display: inline-block;
+  padding-top: 20px;
+}
+
+.navbar ul li {
+  display: inline-block;
+  padding-left: 70px;
+  padding-top: 15px;
+}
+.navbar ul {
+  display: inline-block;
+}
+
+.navbar ul a {
+  color: #010101;
+  font-weight: bold;
+  font-size: 22px;
+  display: inline-block;
+  padding-top: 10px;
+}
+.inspiration {
+  font-size: 32px;
+  font-weight: bold;
+  color: #010101;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.firheading {
+  font-size: 20px;
+  font-weight: Regular;
+  color: #313841;
+  margin-bottom: 25px;
+}
+.secheading {
+  font-size: 16px;
+  font-weight: Regular;
+  color: #555555;
+  margin-bottom: 37px;
+}
+
+.advlogos li {
+  display: inline-block;
+  margin-right: 40px;
+}
+.advlogos li a i {
+  font-size: 40px;
+}
+.advlogos li a {
+  color: black;
+}
+.col-10 {
+  float: left;
+  width: calc(100% * 10 / 12);
+}
+.offset-1 {
+  margin-left: calc(100% * 1 / 12);
+}
+
+.feature {
+  padding: 120px 0px 75px;
+}
+.col-4 {
+  float: left;
+  width: calc(100% * 4 / 12);
+}
+.col-9 {
+  float: left;
+  width: calc(100% * 9 / 12);
+}
+.mb-65 {
+  margin-bottom: 65px;
+}
+.thumbheading {
+  font-size: 22px;
+  font-weight: bold;
+  color: #010101;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+.thumbpara {
+  font-size: 16px;
+  font-weight: Regular;
+  color: #898989;
+}
+.thumbnail {
+  margin-bottom: 85px;
+}
+.icon {
+  text-align: center;
+  font-size: 40px;
+}
+.fheading {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.footer .inspiration {
+  color: #fcdb00;
+}
+.footer .firheading {
+  color: #898989;
+  margin-bottom: 40px;
+}
+.footer {
+  background-color: black;
+  padding: 90px 0px 130px;
+}
+.ourSr-only {
+  width: 1px;
+  height: 1px;
+  display: inline-block;
+  overflow: hidden;
+  padding: 0;
+  margin: -1px;
+  clip-path: rectangle(0, 0, 0, 0);
+}
+.email,
+.Submitbutton {
+  height: 50px;
+  border-radius: 5px;
+  border: 0px;
+  outline: none;
+}
+.email {
+  width: calc(100% - 160px);
+  padding: 0 25px;
+}
+
+.Submitbutton {
+  cursor: pointer;
+  width: 125px;
+  margin-left: 20px;
+  background-color: #fcdb00;
+  color: #010101;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  border: 2px solid #fcdb00;
+}
+.Submitbutton:hover,
+.Submitbutton:focus,
+.Submitbutton:active {
+  color: #fcdb00;
+  background-color: #010101;
+}
+
+.footer .advlogos li a {
+  color: #fcdb00;
+}
+.footerinfo a:link,
+.footerinfo a:visited,
+.footerinfo li {
+  color: #ffffff;
+  font-style: normal;
+}
+.texttm {
+  text-transform: capitalize;
+}
